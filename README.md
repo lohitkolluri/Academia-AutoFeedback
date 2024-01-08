@@ -37,7 +37,9 @@ pip install pynput
 python3 app.py
 ```
 
-<p>5. Follow the prompt and place the cursor at the first option, then wait</p>
+<p>5. Follow the prompts and place the cursor at the first option, then wait.</p>
+
+<p>6. Once done, press CTRL + C to stop it.</p>
 
 <h2>💻 Built with</h2>
 
@@ -48,4 +50,4 @@ Technologies used in the project:
 
 <h2>🛡️ License:</h2>
 
-This project is licensed under the [MIT License](LICENSE)
+This project is licensed under the [MIT License](LICENSE).

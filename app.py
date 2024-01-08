@@ -7,21 +7,19 @@ keyboard = Controller()
 # Function to simulate pressing and releasing the Tab key
 def pressTab():
     keyboard.press(Key.tab)
-    time.sleep(0.05)  # Small delay for a natural feel
+    time.sleep(0.01)  # Reduced sleep duration
     keyboard.release(Key.tab)
-    time.sleep(0.05)  # Pause before the next action
+    time.sleep(0.01)  # Reduced sleep duration
 
 # Function to simulate pressing and releasing the Down arrow key
 def pressDown():
-    keyboard.press(Key.down)
-    time.sleep(0.05)  # Small delay for a natural feel
     keyboard.release(Key.down)
-    time.sleep(0.05)  # Pause before the next action
+    time.sleep(0.01)  # Reduced sleep duration
 
 # Function to automate the feedback form filling process based on user selection
 def fill_feedback(feedback_option):
     pressDown()  # Navigate to the feedback section
-    time.sleep(2)  # Allow time for thoughtful consideration
+    time.sleep(0.5)  # Reduced sleep duration
     for _ in range(8):  # Press Down arrow multiple times for detailed feedback
         pressDown()
     pressTab()  # Move to the next feedback section
